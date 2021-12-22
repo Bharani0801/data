@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate the fb login with valid username and valid password",
+        "description": "",
+        "id": "validate-the-fb-login-application;validate-the-fb-login-with-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10303841500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validating the fb login with edge browser",
+            "match": {
+              "location": "StepDefinition.validating_the_fb_login_with_edge_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 339832500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I need to validate the username and password",
+            "match": {
+              "location": "StepDefinition.i_need_to_validate_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1276537300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate the login button",
+            "match": {
+              "location": "StepDefinition.validate_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate whether login button appears or not",
+            "match": {
+              "location": "StepDefinition.validate_whether_login_button_appears_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate the fb login application",
+    "description": "",
+    "id": "validate-the-fb-login-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feat.feature",
+    "tags": []
+  }
+]
